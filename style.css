@@ -1,0 +1,67 @@
+#imageContainer {
+    display: none; 
+
+}
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/06/25/62/60/360_F_625626087_cO9Cd9KFKH8CNnS5dAH2rP5wYDNL9KpH.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}   
+   
+#WelcomeCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(255, 255, 255);
+    opacity:0.8;
+    padding: 2rem;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+    border-radius: 10px;
+    text-align: center;
+    z-index: 999;
+    background-image: url('giphy.gif');
+    background-size: cover; 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+    border: 2px;
+
+   
+}
+#WelcomeCard h1{
+    font-size:2.4rem;
+    text-shadow: 4px 3px white;
+
+
+}
+#WelcomeCard p{
+    font-size:1.2rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#showImageButton {
+    padding: 0.8rem 2rem;
+    background-color:black;
+    color:goldenrod;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+#showImageButton:hover {
+    background-color:goldenrod;
+    color: black;
+}
